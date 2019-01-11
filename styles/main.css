@@ -1,0 +1,611 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Orbitron", sans-serif; }
+
+body {
+  background-color: #000000; }
+
+header {
+  background-image: url("/Users/scottholt/Desktop/car/images/Hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1; }
+  header .main-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  header .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: "Orbitron", sans-serif;
+    height: 188px; }
+    header .hero .hero-p {
+      font-size: .7em;
+      border-bottom: 1px solid #8A13A4;
+      margin-top: 6px; }
+    header .hero h1 {
+      font-size: 1.3em; }
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.ham-icon {
+  margin-top: -5px;
+  font-size: 20px;
+  text-shadow: 3px 2px 2px #8A13A4;
+  cursor: pointer; }
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .call-to-action .hero-button {
+    border: 1px solid white;
+    padding: 5px 51px;
+    border-radius: 10px;
+    background-image: linear-gradient(#8A13A4, #D25EEE);
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif; }
+    .call-to-action .hero-button:hover {
+      background-color: #8A13A4;
+      transition: ease-in-out .2s; }
+
+.phone-nav {
+  background-color: #8a13a4e8;
+  position: absolute;
+  left: -250px;
+  width: 250px;
+  height: 165%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in-out;
+  z-index: 99; }
+
+.horiz-nav {
+  display: none; }
+
+.close-icon {
+  position: relative;
+  /* top: 69px; */
+  /* right: 10px; */
+  left: -38px;
+  top: -93px;
+  font-size: 37px;
+  text-shadow: 2px 2px 5px black;
+  cursor: pointer; }
+
+.phone-ul {
+  line-height: 81px;
+  margin-top: 200px; }
+  .phone-ul li {
+    list-style-type: none; }
+    .phone-ul li a {
+      text-decoration: none;
+      font-family: "Montserrat", sans-serif;
+      /* box-shadow: 3px 2px 20px 2px black; */
+      text-shadow: 2px 2px 5px black;
+      font-size: 1.4em; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%; }
+
+.section2 {
+  background-image: url(/Users/scottholt/Desktop/car/images/Car.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  border-top: 3px solid #8A13A4;
+  background-color: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  font-size: 10px;
+  /* display: flex; */
+  /* justify-content: space-around; */ }
+  .section2 .main-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: "Orbitron", sans-serif; }
+
+.charger-img {
+  display: none; }
+
+.section2-content {
+  display: flex;
+  justify-content: center; }
+
+.section2-h1 {
+  text-align: center;
+  /* margin-top: 10px; */
+  font-size: 2em; }
+
+.section2-p {
+  margin-top: 47px;
+  width: 87%;
+  line-height: 16px; }
+
+.section2-button {
+  border: 1px solid white;
+  padding: 5px 74px;
+  border-radius: 10px;
+  background-color: #ffffff57;
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.6em;
+  background-image: linear-gradient(#8A13A4, #D25EEE);
+  margin-top: 15px; }
+
+.submit {
+  color: white;
+  font-size: 16px;
+  background-image: linear-gradient(#8A13A4, #D25EEE);
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 10px; }
+
+.section3 {
+  background-image: url(images/Blacktop-BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-top: 3px solid #8A13A4; */
+  background-color: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 10px; */
+  border-bottom: 5px solid #8A13A4; }
+
+.section3-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 30px; }
+
+.icon {
+  height: 100px;
+  width: 100px; }
+
+.lightning {
+  display: flex;
+  /* justify-content: flex-end; */
+  /* width: 100%; */ }
+
+.lightning-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: -1; }
+
+.light-bulb,
+.battery {
+  width: 100%;
+  width: 100%;
+  display: flex; }
+
+.icon-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.icon-h1 {
+  font-size: 1.3em;
+  color: #8A13A4; }
+
+.icon-p {
+  font-size: .8em; }
+
+.section3-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 83%; }
+
+.section3-p {
+  font-size: .6em;
+  line-height: 15px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+.unlimited-power {
+  margin-top: 50px; }
+
+h3 {
+  color: #8A13A4;
+  font-size: .6em;
+  text-align: center; }
+
+.section-4 {
+  background-image: url("/Users/scottholt/Desktop/car/images/Car BG.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .section-4 .sign-up-div {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    justify-content: space-around; }
+  .section-4 .sign-up-info {
+    font-size: .8em; }
+  .section-4 .sign-up-h1 {
+    display: flex;
+    justify-content: center;
+    color: #8A13A4;
+    font-size: 19px;
+    text-align: center; }
+  .section-4 .sign-up-p {
+    text-align: center; }
+
+form {
+  text-align: center; }
+
+input {
+  width: 267px;
+  margin-bottom: 10px;
+  color: #0000007d;
+  background-color: #ffffffc9;
+  /* font-size: 1.2em; */
+  padding: 3px; }
+
+footer {
+  background-color: #161616;
+  height: 30px;
+  width: 100%;
+  font-size: .5em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer-nav {
+  display: none; }
+
+@media (min-width: 445px) and (max-width: 460px) {
+  .lightning-info {
+    margin-left: 65px; } }
+@media only screen and (min-width: 480px) {
+  header .hero .hero-p {
+    font-size: .9em; }
+
+  .ham-icon {
+    margin-top: -5px;
+    font-size: 26px;
+    text-shadow: 4px 3px #8A13A4;
+    cursor: pointer; }
+
+  .section2-p {
+    width: 61%;
+    line-height: 16px;
+    font-size: 1.1em;
+    margin-left: 33px; }
+
+  .section2-h1 {
+    font-size: 1.8em; } }
+@media (min-width: 607px) {
+  header {
+    height: 309px; }
+
+  .banner, .ham-icon {
+    font-size: 1.2em; }
+
+  header .hero {
+    height: 220px; }
+
+  .ham-icon {
+    font-size: 26px; }
+
+  .section2 {
+    background-image: none; }
+
+  .section2-content {
+    display: flex;
+    width: 90%; }
+
+  .section2-button {
+    margin-top: -23px; }
+
+  .section2-p {
+    margin-left: 0px;
+    width: auto;
+    margin-top: -54px;
+    margin-left: 14px; }
+
+  .charger-img {
+    display: block; }
+
+  .charger {
+    width: 300px;
+    height: 247px; }
+
+  .content {
+    justify-content: space-between; }
+
+  .section3-container {
+    flex-direction: row;
+    width: 90%;
+    margin: 20px 0px; }
+
+  .section3-info {
+    order: -1; }
+
+  .icons {
+    margin-top: 0px; }
+
+  .icon {
+    order: -1; }
+
+  .unlimited-power {
+    margin: 0px; } }
+@media (min-width: 628px) {
+  input {
+    width: 341px;
+    padding: 7px; } }
+@media only screen and (min-width: 750px) {
+  .banner {
+    justify-content: center; }
+
+  .content {
+    justify-content: space-around; } }
+@media (min-width: 802px) {
+  header, .section {
+    height: 400px; }
+
+  header .hero {
+    height: 298px; }
+
+  header .hero .hero-p {
+    font-size: .7em; }
+
+  .banner {
+    font-size: 1.6em; }
+
+  .call-to-action .hero-button {
+    font-size: 1.5em; }
+
+  .section2-p {
+    line-height: 22px;
+    font-size: 1.1em; }
+
+  .charger {
+    margin-top: 55px; }
+
+  .section3-container {
+    font-size: 1.2em; }
+
+  input {
+    width: 441px; } }
+@media (min-width: 850px) {
+  .section2 {
+    height: 400px; }
+    .section2 .section2-p {
+      width: 78%; }
+
+  header .hero {
+    align-items: center;
+    justify-content: flex-end;
+    height: 85px;
+    margin-top: 40px; }
+
+  header .hero .hero-p {
+    font-size: .7em; }
+
+  header .hero h1 {
+    font-size: 1.5em; }
+
+  .ham-icon {
+    display: none; }
+
+  .call-to-action {
+    justify-content: flex-end; }
+
+  .call-to-action .hero-button {
+    font-size: 1em; }
+
+  .banner {
+    letter-spacing: 3px; }
+
+  .banner, .call-to-action {
+    margin-right: 15px; }
+
+  .horiz-nav {
+    display: block; }
+    .horiz-nav ul {
+      height: 100px;
+      display: flex;
+      justify-content: flex-end;
+      justify-content: space-between;
+      width: 441px;
+      margin-top: -91px; }
+      .horiz-nav ul li {
+        list-style: none; }
+      .horiz-nav ul a {
+        text-decoration: none; }
+        .horiz-nav ul a:hover {
+          color: #8A13A4;
+          transition: ease-in-out .2s; }
+
+  header {
+    flex-direction: column; }
+
+  footer {
+    flex-direction: column;
+    height: auto; }
+    footer h1 {
+      margin: 10px 0px; }
+
+  .footer-nav {
+    display: block;
+    background-color: #908f8f4a;
+    width: 100%; }
+
+  .footer-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 10px; }
+    .footer-ul li {
+      list-style-type: none; }
+      .footer-ul li a {
+        text-decoration: none;
+        padding: 3.8em; }
+        .footer-ul li a:hover {
+          color: #8A13A4;
+          transition: ease-in-out .2s; }
+          .footer-ul li a:hover:active {
+            color: #8A13A4; } }
+@media (min-width: 940px) {
+  .banner, .call-to-action {
+    margin-right: 20px; }
+
+  .banner {
+    margin-right: 20px;
+    letter-spacing: 5px; }
+
+  .section2-p {
+    font-size: 1.3em;
+    width: 73%;
+    margin-top: -45px; } }
+@media (min-width: 1041px) and (max-width: 2000px) {
+  .section-4 {
+    height: 500px; }
+    .section-4 .sign-up-h1 {
+      font-size: 4em; }
+      .section-4 .sign-up-h1 .sign-up-p {
+        font-size: 2em; }
+
+  input {
+    width: 600px;
+    padding: 19px; } }
+@media (min-width: 1040px) {
+  .hero, .call-to-action {
+    margin-right: 50px; }
+
+  header, section {
+    height: 500px; }
+
+  .horiz-nav ul {
+    width: 499px;
+    margin-top: -137px;
+    font-size: 1.3em; }
+
+  .charger {
+    width: 400px;
+    height: 321px; }
+
+  .content {
+    justify-content: space-around;
+    height: 324px; }
+
+  .section3-p {
+    line-height: 27px;
+    width: 96%; } }
+@media (min-width: 1120px) {
+  .section2 .section2-p {
+    width: 60%; } }
+@media (min-width: 1275px) {
+  .banner {
+    font-size: 2em; }
+
+  .call-to-action {
+    margin-top: 10px;
+    font-size: 1.4em; }
+
+  .section2 {
+    height: 600px; }
+
+  .section2-button {
+    margin-top: -62px; }
+
+  .section2 {
+    height: 500px; }
+
+  .content {
+    margin-left: 0px;
+    font-size: 1.5em;
+    height: 374px; } }
+@media (min-width: 1375px) {
+  header, .section2 {
+    height: 600px; }
+
+  .horiz-nav ul {
+    width: 634px;
+    margin-top: -180px;
+    font-size: 1.5em; }
+
+  .charger {
+    width: 500px;
+    height: 400px; } }
+@media (min-width: 1680px) {
+  header, section {
+    height: 700px; }
+
+  .horiz-nav ul {
+    width: 634px;
+    margin-top: -227px;
+    font-size: 1.8em; }
+
+  .charger {
+    width: 600px;
+    height: 500px; }
+
+  .content {
+    /* margin-left: 0px; */
+    font-size: 1.5em;
+    /* line-height: 25px; */
+    width: 52em;
+    height: 400px; } }
+@media (min-width: 2063px) {
+  header, section {
+    height: 800px; }
+
+  .horiz-nav ul {
+    width: 837px;
+    margin-top: -277px;
+    font-size: 2em; } }
+
+/*# sourceMappingURL=main.css.map */
