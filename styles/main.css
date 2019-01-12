@@ -19,7 +19,7 @@ header {
   align-items: center;
   z-index: -1; }
   header .main-container {
-    width: 90%;
+    width: 91%;
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
@@ -45,7 +45,7 @@ header {
 .ham-icon {
   margin-top: -5px;
   font-size: 20px;
-  text-shadow: 3px 2px 2px #8A13A4;
+  text-shadow: 3px 3px 2px #8A13A4;
   cursor: pointer; }
 
 .call-to-action {
@@ -314,7 +314,6 @@ footer {
   .ham-icon {
     margin-top: -5px;
     font-size: 26px;
-    text-shadow: 4px 3px #8A13A4;
     cursor: pointer; }
 
   .section2-p {
@@ -547,6 +546,9 @@ footer {
 @media (min-width: 1120px) {
   .section2 .section2-p {
     width: 60%; } }
+@media (min-width: 1147px) and (max-width: 2000px) {
+  .section3 {
+    font-size: 1.3em; } }
 @media (min-width: 1275px) {
   .banner {
     font-size: 2em; }
@@ -580,6 +582,15 @@ footer {
   .charger {
     width: 500px;
     height: 400px; } }
+@media (min-width: 1412px) {
+  input {
+    width: 650px; } }
+@media (min-width: 1500px) {
+  input {
+    width: 750px; } }
+@media (min-width: 1700px) {
+  input {
+    width: 850px; } }
 @media (min-width: 1680px) {
   header, section {
     height: 700px; }

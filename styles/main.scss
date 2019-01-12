@@ -82,7 +82,7 @@ header{
 .ham-icon{
   margin-top: -5px;
   font-size: 20px;
-  text-shadow:3px 2px 2px #8A13A4;
+  text-shadow:3px 3px 2px #8A13A4;
   cursor:pointer;
 }
 
@@ -450,7 +450,6 @@ header .hero .hero-p {
   .ham-icon {
     margin-top: -5px;
     font-size: 26px;
-    text-shadow: 4px 3px #8A13A4;
     cursor: pointer;
 }
 
@@ -809,6 +808,12 @@ height: 321px;
 
 }
 
+@media(min-width:1147px) and (max-width:2000px){
+  .section3{
+        font-size: 1.3em;
+  }
+}
+
 @media(min-width:1275px){
   .banner{
     font-size:2em;
@@ -854,6 +859,24 @@ height: 374px;
       width: 500px;
     height: 400px;
     }
+}
+
+@media(min-width:1412px){
+  input{
+    width:650px;
+  }
+}
+
+@media(min-width:1500px){
+  input{
+  width:750px;
+}
+}
+
+@media(min-width:1700px){
+  input{
+  width:850px;
+}
 }
 
 @media(min-width:1680px){
