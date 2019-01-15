@@ -375,7 +375,10 @@ footer {
     order: -1; }
 
   .unlimited-power {
-    margin: 0px; } }
+    margin: 0px; }
+
+  .close-icon {
+    top: -107px; } }
 @media (min-width: 628px) {
   input {
     width: 341px;
@@ -413,7 +416,11 @@ footer {
     font-size: 1.2em; }
 
   input {
-    width: 441px; } }
+    width: 441px; }
+
+  .close-icon {
+    top: -152px;
+    left: -27px; } }
 @media (min-width: 850px) {
   .section2 {
     height: 400px; }
@@ -539,7 +546,11 @@ footer {
 
   .section3-p {
     line-height: 27px;
-    width: 96%; } }
+    width: 96%; }
+
+  .close-icon {
+    top: -208px;
+    left: -27px; } }
 @media (min-width: 1120px) {
   .section2 .section2-p {
     width: 60%; } }
