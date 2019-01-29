@@ -371,7 +371,14 @@ footer {
     order: -1; }
 
   .icons {
-    margin-top: 0px; }
+    margin-top: 0px;
+    transform: translateX(113%);
+    opacity: 0; }
+
+  .slide-in {
+    transform: translateX(0%);
+    transition: ease-in-out .6s;
+    opacity: 1; }
 
   .icon {
     order: -1; }

@@ -36,11 +36,19 @@ phoneNav.addEventListener('click',(e)=>{
 
 
 
-window.addEventListener('scroll', ()=>{
-  const sections = this.scrollY/4;
-  console.log(sections);
-  
-})
+
+
+//tester event listener and function for slide out icons
+const section3 = document.querySelector('.section3');
+const unlimPowButt = document.querySelector('.unlimited-power')
+const icons = document.querySelector('.icons');
+function funky(e){
+ if (e.target == unlimPowButt){
+   icons.classList.add('slide-in')
+ }
+}
+section3.addEventListener('click', funky);
+
 
 
 
