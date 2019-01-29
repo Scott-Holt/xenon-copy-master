@@ -24,7 +24,6 @@ phoneNav.addEventListener('click',(e)=>{
 
 //Functions******************************
 
-console.log('123');
 
 
 
@@ -37,6 +36,11 @@ console.log('123');
 
 
 
+window.addEventListener('scroll', ()=>{
+  const sections = this.scrollY/4;
+  console.log(sections);
+  
+})
 
 
 

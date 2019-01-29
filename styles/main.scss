@@ -254,7 +254,7 @@ font-family:$second;
 // SECTION 3**********************************************************
 
 .section3{
-  background-image: url(images/Blacktop-BG.jpg);
+  background-image: url("../images/Blacktop BG.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -500,8 +500,8 @@ header .hero .hero-p {
 .section2-p{
   margin-left: 0px;
   width: auto;
-  /* margin-top: -54px; */
-  /* margin-left: 14px; */
+  text-align: center;
+  margin-top: -3px;
 }
 
 .charger-img{
@@ -551,6 +551,13 @@ header .hero .hero-p {
   input{
   width: 341px;
 padding: 7px;
+}
+
+.section2-p{
+  margin-left: 0px;
+  width: auto;
+  margin-top: -7px;
+  text-align: center;
 }
 }
 
@@ -622,6 +629,18 @@ left: -27px;
     .section2-p{
           width: 78%;
     }
+.section2-button{
+    border: 1px solid white;
+    padding: 5px 74px;
+    border-radius: 10px;
+    background-color: #ffffff57;
+    cursor: pointer;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.6em;
+    background-image: linear-gradient(#8A13A4, #D25EEE);
+    margin-top: -6px;
+    margin-bottom: 34px;
+}
   }
 
   header .hero{
@@ -798,7 +817,8 @@ height: 321px;
 
   .content {
     justify-content: space-around;
-    height: 324px;
+    height: 301px;
+    margin-top: 45px;
 }
 
 .section3-p{
@@ -918,6 +938,7 @@ font-size: 1.5em;
 /* line-height: 25px; */
 width: 52em;
     height: 400px;
+    margin-top: 65px;
   }
 
 .section3-p{
