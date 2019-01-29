@@ -1,12 +1,14 @@
-* {
+html, body {
+  width: 100%;
+  min-width: 300px;
+  max-width: 2000px;
+  height: 100%;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
   box-sizing: border-box;
   color: white;
   font-family: "Orbitron", sans-serif; }
-
-body {
-  background-color: #000000; }
 
 header {
   background-image: url("../images/Hero.jpg");

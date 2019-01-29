@@ -11,18 +11,32 @@ $third:'Roboto', sans-serif;
 
 
 // styles**********************************
-*{
-  margin:0px;
-  padding:0px;
-  box-sizing: border-box;
-  color:white;
+// *{
+//   margin:0px;
+//   padding:0px;
+//   box-sizing: border-box;
+//   color:white;
+//   font-family:$second;
+// }
+
+html,body
+{
+    width: 100%;
+    min-width:300px;
+    max-width:2000px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+      color:white;
   font-family:$second;
 }
 
-body{
-    background-color:#000000;
+// body{
+//     background-color:#000000;
 
-}
+// }
 
 
 header{
