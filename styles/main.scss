@@ -668,8 +668,8 @@ left: -27px;
   header .hero{
     align-items: center;
     justify-content: flex-end;
-    height:85px;
-    margin-top: 40px;
+    /* height: 85px; */
+    /* margin-top: 40px; */
   }
 
   header .hero .hero-p{
@@ -678,6 +678,7 @@ left: -27px;
 
   header .hero h1 {
     font-size: 1.5em;
+    margin: 5px 0px;
   }
 
 
@@ -691,6 +692,7 @@ left: -27px;
 
   .call-to-action .hero-button{
     font-size:1em;
+    margin-top: -163px;
   }
 
   .banner{
@@ -705,12 +707,12 @@ left: -27px;
     display:block;
 
     ul{
-      height: 100px;
-      display: flex;
-      justify-content: flex-end;
-      justify-content: space-between;
-      width: 441px;
-      margin-top: -91px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    width: 441px;
+    /* margin-top: -91px; */
 
         li{
           list-style: none;
@@ -730,6 +732,7 @@ left: -27px;
 
   header{
     flex-direction:column;
+    justify-content: flex-start;
   }
 
   footer{
@@ -786,7 +789,7 @@ left: -27px;
   }
 
     .banner {
-    margin-right: 20px;
+      margin: 0px;
     letter-spacing: 5px;
   }
 
@@ -828,7 +831,7 @@ left: -27px;
 
   .horiz-nav ul{
     width: 499px;
-    margin-top: -137px;
+    /* margin-top: -137px; */
     font-size: 1.3em;
   }
 
@@ -903,9 +906,9 @@ height: 374px;
   }
 
   .horiz-nav ul {
-      width: 634px;
-      margin-top: -180px;
-      font-size: 1.5em;
+    width: 634px;
+    /* margin-top: -180px; */
+    font-size: 1.5em;
     }
 
     .charger{
@@ -945,7 +948,7 @@ height: 374px;
 
   .horiz-nav ul {
     width: 634px;
-    margin-top: -227px;
+    /* margin-top: -227px; */
     font-size: 1.8em;
   }
 
@@ -975,9 +978,9 @@ width: 52em;
   }
 
   .horiz-nav ul {
-      width: 837px;
-      margin-top: -277px;
-      font-size: 2em;
+    width: 837px;
+    /* margin-top: -277px; */
+    font-size: 2em;
 }
 
 }

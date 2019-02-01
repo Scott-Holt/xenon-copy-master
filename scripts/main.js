@@ -35,22 +35,31 @@ phoneNav.addEventListener('click',(e)=>{
 // ********************************************
 // ********************************************
 
-const sliderImages = document.querySelector('.slide-image');
-const icons = document.querySelector('.icons');
+const imageSliders = document.querySelectorAll('.slide-image')
+const icon = document.querySelector('.icon');
 
-//713px is when image should slide out
-function scrollPosition(){
-  console.log(window.pageYOffset);
-  if(window.pageYOffset == 713){
-    icons.classList.add('slide-in');
-    console.log(icons);
+// function scrollFunc() {
+//   imageSliders.forEach(imageSlider => {
+//     const slideInAt = (window.scrollY + window.innerHeight) - imageSlider.height / 2;
+//     const halfwayThrough = slideInAt > imageSlider.offsetTop;
+//     if(halfwayThrough){
+//       console.log('fuck');
+//     }
+//   })
+  
+// }
+
+function scrollFunc() {
+
+    const slideInAt = (window.scrollY + window.innerHeight) - icon.height / 2;
+    const halfwayThrough = slideInAt > icon.offsetTop;
+    if(halfwayThrough){
+      icon.classList.add('slide-in');
+      
   }
 }
- 
-  
 
-window.addEventListener('scroll',scrollPosition);
-
+window.addEventListener('scroll', scrollFunc);
 
 
 
@@ -107,3 +116,10 @@ window.addEventListener('scroll',scrollPosition);
 //     section2.style = 'filter:none transition:.9s ease';
 //   }
 // })
+
+
+  // console.log(window.pageYOffset);
+  // if(window.pageYOffset === 500){
+  //   icons.classList.add('slide-in');
+  //   console.log('hey');
+  // }
