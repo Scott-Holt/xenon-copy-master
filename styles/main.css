@@ -83,7 +83,7 @@ header {
   position: relative;
   /* top: 69px; */
   /* right: 10px; */
-  left: -38px;
+  left: -16px;
   top: -93px;
   font-size: 37px;
   text-shadow: 2px 2px 5px black;
@@ -99,7 +99,8 @@ header {
       font-family: "Montserrat", sans-serif;
       /* box-shadow: 3px 2px 20px 2px black; */
       text-shadow: 2px 2px 5px black;
-      font-size: 1.4em; }
+      font-size: 1.4em;
+      color: white; }
 
 .content {
   display: flex;
@@ -305,6 +306,10 @@ footer {
 .footer-nav {
   display: none; }
 
+input[type=text]:focus {
+  outline: 2px solid #D25EEE;
+  /* oranges! yey */ }
+
 @media (min-width: 445px) and (max-width: 460px) {
   .lightning-info {
     margin-left: 65px; } }
@@ -493,7 +498,8 @@ footer {
       .horiz-nav ul li {
         list-style: none; }
       .horiz-nav ul a {
-        text-decoration: none; }
+        text-decoration: none;
+        color: #D25EEE; }
         .horiz-nav ul a:hover {
           color: #8A13A4;
           transition: ease-in-out .2s; }
@@ -517,13 +523,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding: 10px; }
     .footer-ul li {
       list-style-type: none; }
       .footer-ul li a {
         text-decoration: none;
-        padding: 3.8em; }
+        padding: 3.8em;
+        color: #D25EEE; }
         .footer-ul li a:hover {
           color: #8A13A4;
           transition: ease-in-out .2s; }

@@ -38,24 +38,12 @@ phoneNav.addEventListener('click',(e)=>{
 const imageSliders = document.querySelectorAll('.slide-image')
 const icon = document.querySelector('.icon');
 
-// function scrollFunc() {
-//   imageSliders.forEach(imageSlider => {
-//     const slideInAt = (window.scrollY + window.innerHeight) - imageSlider.height / 2;
-//     const halfwayThrough = slideInAt > imageSlider.offsetTop;
-//     if(halfwayThrough){
-//       console.log('fuck');
-//     }
-//   })
-  
-// }
-
 function scrollFunc() {
 
     const slideInAt = (window.scrollY + window.innerHeight) - icon.height / 2;
     const halfwayThrough = slideInAt > icon.offsetTop;
     if(halfwayThrough){
       icon.classList.add('slide-in');
-      
   }
 }
 
@@ -123,3 +111,14 @@ window.addEventListener('scroll', scrollFunc);
   //   icons.classList.add('slide-in');
   //   console.log('hey');
   // }
+
+  // function scrollFunc() {
+//   imageSliders.forEach(imageSlider => {
+//     const slideInAt = (window.scrollY + window.innerHeight) - imageSlider.height / 2;
+//     const halfwayThrough = slideInAt > imageSlider.offsetTop;
+//     if(halfwayThrough){
+//       console.log('fuck');
+//     }
+//   })
+  
+// }

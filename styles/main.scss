@@ -148,7 +148,7 @@ header{
   position: relative;
   /* top: 69px; */
   /* right: 10px; */
-  left: -38px;
+  left: -16px;
       top: -93px;
   font-size: 37px;
   text-shadow: 2px 2px 5px black;
@@ -169,6 +169,7 @@ li{
         /* box-shadow: 3px 2px 20px 2px black; */
           text-shadow: 2px 2px 5px black;
         font-size: 1.4em;
+        color:white;
 
   }
 }
@@ -447,6 +448,9 @@ footer{
   display:none;
 }
 
+input[type=text]:focus{
+  outline: 2px solid $pink;     /* oranges! yey */
+}
 
 // ****************MEDIA QUERIES************************************
 
@@ -645,6 +649,7 @@ left: -27px;
 
 @media(min-width:850px){
 
+
   .section2{
     height:400px;
 
@@ -720,6 +725,7 @@ left: -27px;
 
           a{
             text-decoration: none;
+            color:$pink;
 
             &:hover{
               color:$purple;
@@ -756,7 +762,7 @@ left: -27px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5em;
+        font-size: 1.7em;
         padding: 10px;
 
         li{
@@ -765,6 +771,7 @@ left: -27px;
           a{
             text-decoration:none;
                 padding: 3.8em;
+                color:$pink;
 
             &:hover{
               color:$purple;
