@@ -29,6 +29,9 @@ phoneNav.addEventListener('click',(e)=>{
   }
 })
 
+window.addEventListener('scroll', scrollFunc);
+
+
 
 
 //Functions************************************
@@ -47,7 +50,6 @@ function scrollFunc() {
   }
 }
 
-window.addEventListener('scroll', scrollFunc);
 
 
 
@@ -63,62 +65,3 @@ window.addEventListener('scroll', scrollFunc);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// COMMENTED OUT CODE JUST IN CASE****************************************************
-
-
-// tester event listener and function for slide out icons
-
-// const section3 = document.querySelector('.section3');
-// const unlimPowButt = document.querySelector('.unlimited-power')
-// const icons = document.querySelector('.icons');
-// function funky(e){
-//  if (e.target == unlimPowButt){
-//    icons.classList.add('slide-in')
-//  }
-// }
-// section3.addEventListener('click', funky);
-
-
-
-
-
-// window.addEventListener('scroll',()=>{
-//   const scrollPosition = window.pageYOffset;
-//   if(scrollPosition > 300) {
-//     section2.style = 'filter:blur(2px); transition:.9s ease-in-out';
-//   } else {
-//     section2.style = 'filter:none transition:.9s ease';
-//   }
-// })
-
-
-  // console.log(window.pageYOffset);
-  // if(window.pageYOffset === 500){
-  //   icons.classList.add('slide-in');
-  //   console.log('hey');
-  // }
-
-  // function scrollFunc() {
-//   imageSliders.forEach(imageSlider => {
-//     const slideInAt = (window.scrollY + window.innerHeight) - imageSlider.height / 2;
-//     const halfwayThrough = slideInAt > imageSlider.offsetTop;
-//     if(halfwayThrough){
-//       console.log('fuck');
-//     }
-//   })
-  
-// }
